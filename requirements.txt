@@ -1,0 +1,8 @@
+streamlit
+google-generativeai
+python-dotenv
+pdf2image
+PyPDF2
+
+Download - https://github.com/oschwartz10612/poppler-windows/releases/tag/v24.02.0-0
+           release.zip downlaod then in program_files_x86 and paste poppler folder then in folder to the bin path link paste in thispc_env_path.
