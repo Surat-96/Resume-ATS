@@ -41,7 +41,7 @@ I want the response in one single string having the structure
 """
 
 ## streamlit app
-st.header("Smart Resume ATS :books:")
+st.header("🎊 Smart Resume ATS 📑🫰")
 jd=st.text_area("Paste the Job Description")
 uploaded_file=st.file_uploader("Upload Your Resume",type="pdf",help="Please uplaod the pdf")
 
