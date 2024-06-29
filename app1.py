@@ -52,3 +52,11 @@ if submit:
         text=input_pdf_text(uploaded_file)
         response=get_gemini_repsonse(input_prompt)
         st.subheader(response)
+
+footer = """
+---
+#### Made By [Surat Banerjee](https://www.linkedin.com/in/surat-banerjee/)
+For Any Queries, Reach out on [Portfolio](https://suratbanerjee.wixsite.com/myportfoliods)  
+"""
+
+st.markdown(footer, unsafe_allow_html=True)
