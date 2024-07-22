@@ -9,7 +9,7 @@ os.environ['GOOGLE_API_KEY']="AIzaSyB6-jZLBXeOeLFBhFaU11oidwAeBATkrds"
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 
 def get_gemini_repsonse(input):
-    model=genai.GenerativeModel('gemini-pro')
+    model=genai.GenerativeModel('gemini-1.5-pro')
     response=model.generate_content(input)
     return response.text
 
